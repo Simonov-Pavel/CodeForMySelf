@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+.block{
+	width: 20%;
+	margin: 20px auto;
+	padding:20px;
+	border: 5px solid #000;
+}
+.block p{
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+}

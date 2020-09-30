@@ -8,17 +8,38 @@
 body{
 	font:16px Arial,sans-serif;
 }
-h2{
-	margin: 20px;
-}
-p.google-fonts-standart{
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-}
-p.google-fonts-import{
-	font-family: 'Courier Prime', monospace;
+.conteiner{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	width: 900px;
+	margin: 0 auto;
 }
 
-p.font-family{
-	font-family: 'bodoni', sans-serif;
+.block{
+	width: 30%;
+	margin: 20px 0;
+	border:5px solid #000;
+}
+.block img{
+	width: 100%;
+	display: block;
+}
+.img1 img{
+	filter: brightness(1.5);
+}
+.img2 img{
+	filter: blur(3px);
+}
+.img3 img{
+	filter: contrast(150%);
+}
+.img4 img{
+	filter: grayscale(0.5);
+}
+.img5 img{
+	filter: sepia(0.5);
+}
+.img6 img{
+	filter: saturate(2);
 }
