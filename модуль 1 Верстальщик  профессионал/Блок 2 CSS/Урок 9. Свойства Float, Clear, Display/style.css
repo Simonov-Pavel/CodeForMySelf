@@ -1,0 +1,32 @@
+.dashed{
+	border:1px dashed #00f;
+	padding:10px;
+	margin:20px;
+}
+.solid{
+	border:2px solid #f00;
+	display:none;
+	padding:20px 10px;
+	margin:0 40px;
+
+}
+.dotted{
+	border:3px dotted #0f0;
+	padding:20px 0;
+	margin:20px 0;
+}
+.border{
+	border-top:1px solid #000;
+	border-bottom:1px solid #f00;
+	border-left:1px dashed #0f0;
+	border-right:1px dotted #00f;
+	padding:10px 20px 30px 40px;
+	margin:20px 10px 0 70px;
+}
+.imgleft{
+	float:left;
+	margin-right:20px;
+}
+.clear{
+	clear:both;
+}

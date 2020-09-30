@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:12px Arial;
+	background-color: currentcolor;
+	color:#555;
+}
+.example{
+	width:600px;
+	height:375px;
+	margin: 20px auto;
+	background:
+		url('img/img3.png') no-repeat,
+		url('img/img2.png') no-repeat,
+		url('img/img1.jpg') no-repeat 
+	;
+	background-size: 150px,150px,auto;
+	background-position: left center, right bottom,center;
+}

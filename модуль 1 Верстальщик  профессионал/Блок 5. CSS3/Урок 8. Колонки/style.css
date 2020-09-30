@@ -1,0 +1,14 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+.block{
+	columns: 4 200px;
+	padding: 20px;
+	column-gap: 30px;
+	column-rule: 2px solid rgba(0,0,0,.5);
+	text-align:justify;
+} 

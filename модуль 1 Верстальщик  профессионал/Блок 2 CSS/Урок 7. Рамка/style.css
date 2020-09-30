@@ -1,0 +1,15 @@
+.dashed{
+	border:1px dashed #00f;
+}
+.solid{
+	border:2px solid #f00;
+}
+.dotted{
+	border:3px dotted #0f0;
+}
+.border{
+	border-top:1px solid #000;
+	border-bottom:1px solid #f00;
+	border-left:1px dashed #0f0;
+	border-right:1px dotted #00f;
+}

@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:25px Arial,sans-serif;
+}
+.block{
+	width: 400px;
+	height:200px;
+	margin: 30px auto;
+	background-color: #f00;
+	padding:20px;
+	text-align:center;
+	background-image: linear-gradient(to bottom, #f00, #ff0);
+} 
+p{
+	text-shadow:3px 3px 3px rgba(0,0,0,.7);
+}
+.block1{
+	background-image: linear-gradient(90deg, #00f,#f00);
+}
+.block2{
+	background-image: linear-gradient(135deg, #00f,#f00);
+}
+.block3{
+	background-image: repeating-linear-gradient(#00f 0%,#f00 10%);
+}
+.block4{
+	background-image: repeating-linear-gradient(135deg,#00f 5%,#f00 10%,#ff0 15%,#0f0 20%);
+}
+

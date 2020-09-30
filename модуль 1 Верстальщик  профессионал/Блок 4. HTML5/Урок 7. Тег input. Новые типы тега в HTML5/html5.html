@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta charset="utf-8">   
+   <title>Регистрация</title>
+   <link rel='stylesheet' href='html5.css' type='text/css'>
+</head>
+<body>
+	<h1>Регистрация</h1>
+	<form name='myform' medhod='post' action='#'>
+		<table>
+			<tr>
+				<td>Имя:</td>
+				<td>
+					<input type='text' name='name' placeholder='Введите ваше имя' required='required'>
+				</td>
+			</tr>
+			<tr>
+				<td>E-mail:</td>
+				<td>
+					<input type='email' name='email' placeholder='Введите адрес электронной почты' required='required'>
+				</td>
+			</tr>
+			<tr>
+				<td>Пароль:</td>
+				<td>
+					<input type='password' name='pas' placeholder='Придумайте пароль' required='required'>
+				</td>
+			</tr>
+			<tr>
+				<td>Ваш статус:</td>
+				<td>
+					Юридическое лицо<input type='radio' name='status' checked='checked' ><br>
+					Физическое лицо<input type='radio' name='status' >
+				</td>
+			</tr>
+			<tr>
+				<td>Ваш город:</td>
+				<td>
+					<select>
+						<option>Москва</option>
+						<option>Красноярск</option>
+						<option>Новосибирск</option>
+						<option>Иркутск</option>
+						<option>Омск</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>О себе:</td>
+				<td>
+					<textarea placeholder='Расскажите немного о себе'></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<input type='submit' name='check' value='Зарегестрироваться'>
+				</td>
+			</tr>
+		</table>
+	</form>  
+</body>
+</html>

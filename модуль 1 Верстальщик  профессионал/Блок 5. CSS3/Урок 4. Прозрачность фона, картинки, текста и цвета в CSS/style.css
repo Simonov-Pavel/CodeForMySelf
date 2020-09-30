@@ -1,0 +1,16 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+.example{
+	width: 400px;
+	height:200px;
+	margin: 20px auto;
+	padding: 30px 0;
+	text-align:center;
+	border: 5px solid rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.2);
+}
