@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+
+.example{
+	border:1px solid #000;
+	width: calc(50% - 100px);
+	margin: 30px auto;
+	padding: 20px;
+}
+.example h2{
+	text-align: center;
+	margin: 20px 0;
+	text-decoration: underline;
+}
