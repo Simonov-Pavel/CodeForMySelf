@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+.conteiner{
+	position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+.border{
+	border-left: 5px solid #000;
+    height: 60px;
+    width: 10px;
+    display: inline-block;
+}
+h1{
+	font-size: 100px;
+	text-shadow:	0 1px 0 #cccccc,
+					0 2px 0 #c9c9c9,
+  					0 3px 0 #bbbbbb,
+  					0 4px 0 #b9b9b9,
+  					0 5px 0 #aaaaaa,
+  					0 6px 1px rgba(0, 0, 0, 0.1),
+  					0 0 5px rgba(0, 0, 0, 0.1),
+  					0 1px 3px rgba(0, 0, 0, 0.3),
+  					0 3px 5px rgba(0, 0, 0, 0.2),
+  					0 5px 10px rgba(0, 0, 0, 0.25),
+  					0 10px 10px rgba(0, 0, 0, 0.2),
+  					0 20px 20px rgba(0, 0, 0, 0.15);
+  	color: #a5a5a5;
+  	display: flex;
+  	align-items: center;				
+} 
+h1 .border, h1 .letter{
+	opacity: 0;
+}
+
+h1 div:nth-child(1) .border{
+	animation:border 1s;
+}
+h1 div:nth-child(1) .letter{
+	animation:letter .5s 1s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(2) .border{
+	animation:border 1s 1s;
+}
+h1 div:nth-child(2) .letter{
+	animation:letter .5s 2s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(3) .border{
+	animation:border 1s 2s;
+}
+h1 div:nth-child(3) .letter{
+	animation:letter .5s 3s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(4) .border{
+	animation:border 1s 3s;
+}
+h1 div:nth-child(4) .letter{
+	animation:letter .5s 4s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(5) .border{
+	animation:border 1s 4s;
+}
+h1 div:nth-child(5) .letter{
+	animation:letter .5s 5s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(6) .border{
+	animation:border 1s 5s;
+}
+h1 div:nth-child(6) .letter{
+	animation:letter .5s 6s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(7) .border{
+	animation:border 1s 6s;
+}
+h1 div:nth-child(7) .letter{
+	animation:letter .5s 7s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(8) .border{
+	animation:border 1s 7s;
+}
+h1 div:nth-child(8) .letter{
+	animation:letter .5s 8s;
+	animation-fill-mode: forwards;
+}
+h1 div:nth-child(9) .border{
+	animation:border 1s 8s;
+}
+h1 div:nth-child(9) .letter{
+	animation:letter .5s 9s;
+	animation-fill-mode: forwards;
+}
+.button{
+	border: 1px solid #000;
+    width: 200px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    color:#fff;
+    font-size:24px;
+    background-color: #f00;
+    padding:10px 0;
+    position: relative;
+    overflow: hidden;
+    opacity:0;
+    animation: button 2s 9s;
+    animation-fill-mode: forwards;
+}
+.button span{
+	font-size: 10px;
+}
+.button::before{
+	content: '';
+    width: 10px;
+    height: 150%;
+    background-color: #c1c1c1;
+    position: absolute;
+    top: -25%;
+    left: -25%;
+    transform: rotate(45deg);
+    animation: move 1s 2s infinite;
+}
+
+@keyframes border{
+	from{opacity: 0;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	75%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@keyframes letter{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@keyframes move{
+	from{left: -125%;}
+	50%{left:-25%;}
+	75%{left:125%;}
+	to{left:225%;}
+}
+@keyframes button{
+	from{opacity:0;}
+	to{opacity:1;}
+}
