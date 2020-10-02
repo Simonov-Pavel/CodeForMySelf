@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+[class^='block']{
+	width:300px;
+	height:300px;
+	border:1px solid #000;
+	background:#0ff;
+	margin: 20px auto;
+}
+[class^='block'] p{
+	text-align: center;
+	padding-top: 50%;
+}
+
+.block1{
+	transform: translate(200px, -20px);
+}
+.block2{
+	transform: scale(4, .5);
+}
+.block2 p{
+	transform: scale(0.25,2) translateY(-30%);
+}
+.block3{
+	transform: rotate(45deg);
+	margin-bottom: 30px;
+}
+.block3 p{
+	transform: rotate(-45deg) translate(-20%, -20%);
+}
+.block4{
+	transform: skew(45deg,0deg);
+}
+.block4 p{
+	transform: skew(-45deg,0) translate(20%);
+}
+
