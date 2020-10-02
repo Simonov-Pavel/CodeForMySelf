@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+.conteiner{
+	perspective: 500px;
+}
+[class^='block']{
+	width: 200px;
+	height: 200px;
+	margin: 100px auto;
+	border: 1px solid #000;
+	background-color: #f00;
+	color:#fff;
+	text-align: center;
+}
+.conteiner div:nth-child(2){
+	background-color: #0f0;
+}
+.conteiner div:nth-child(3){
+	background-color: #00f;
+}
+.conteiner div:nth-child(4){
+	background-color: #ff0;
+	color:#000;
+}
+.block1:hover{
+	transform: translate3d(0, -100px, -100px);
+}
+.block1-1:hover{
+	transform: translate3d(0, 0, 100px);
+}
+.block2:hover{
+	transform: scale3d(2, 2, 2);
+}
+.block3:hover{
+	transform: rotate3d(1, 0, 1, 50deg);
+}
