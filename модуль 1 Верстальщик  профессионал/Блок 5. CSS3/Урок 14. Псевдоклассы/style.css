@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+.conteiner ul li:first-child{
+	color: #f00;
+}
+.conteiner ul li:nth-child(3){
+	color: #00f;
+}
+.conteiner ul li:last-child{
+	color: #0f0;
+}
