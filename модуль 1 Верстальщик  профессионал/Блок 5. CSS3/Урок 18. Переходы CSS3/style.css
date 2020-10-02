@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font:16px Arial,sans-serif;
+}
+.conteiner{
+	width: 200px;
+	height: 200px;
+	border: 5px solid #000;
+	background-color: yellow;
+	margin: 100px auto;
+	transition: 2s ease-in-out;
+}
+.conteiner:hover{
+	transform: scale(2);
+	background-color:red;
+	
+}
