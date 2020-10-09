@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding:0;
+}
+h1{
+	text-align: center;
+	margin: 50px 0;
+}
+table{
+	border-collapse: collapse;
+	margin: 30px auto;
+}
+table tr td{
+	border: 1px solid #000;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+table tr:first-child td{
+	background-color: #bbb;
+}
+table tr td:first-child{
+	background-color: #bbb;
+}
+.tab tr:nth-child(1) td:nth-child(1)::before{
+	content: 'столбец';
+}
+.tab tr:nth-child(1) td:nth-child(1)::after{
+	content: 'строка';
+}
