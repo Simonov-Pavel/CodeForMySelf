@@ -10,6 +10,7 @@ function NewYear(){
 	var newYear = new Date();
 	newYear.setMonth(11,31);
 	newYear.setHours(0,0,0,0);
+	var year = now.getFullYear();
 	var div = document.getElementById('NewYear');
 	var timer = newYear.getTime() - now.getTime();
 	var days = parseInt(timer/(24*60*60*1000));
@@ -19,7 +20,7 @@ function NewYear(){
 	if(min<10) min = '0'+ min;
 	var sec = parseInt(timer/1000)%60;
 	if(sec<10) sec = '0'+ sec;
-	div.innerHTML ='Новый год через ' + days +' дней '+ hours +' : ' + min + ' : ' + sec;
+	div.innerHTML ='Новый ' + year + ' год через ' + days +' дней '+ hours +' : ' + min + ' : ' + sec;
 	setTimeout(NewYear,1000);
 }
 function Mode(){
