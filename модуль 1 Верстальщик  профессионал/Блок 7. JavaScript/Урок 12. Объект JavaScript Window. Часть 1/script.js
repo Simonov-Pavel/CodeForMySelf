@@ -37,3 +37,15 @@ function popupOut(x){
 	}
 }
 
+var colorH1 = document.getElementById('header');
+	colorH1.onclick = function(){
+		clearInterval(stop);
+		colorH1.style.color = 'black';
+	};
+function color(){
+	if(colorH1.style.color == 'black'){
+		colorH1.style.color = 'white';
+	}else colorH1.style.color = 'black';
+
+}
+var stop = setInterval(color,500);
