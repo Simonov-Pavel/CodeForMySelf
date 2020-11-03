@@ -16,7 +16,7 @@ h1{
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0;
+	opacity: 1;
 	display: none;
 	justify-content: center;
 	align-items: center;
@@ -24,7 +24,7 @@ h1{
 	height: 100vh;
 	background-color: rgba(0,0,0,.3);
 }
-#popap{
+#popup{
 	position:relative;
 	background: #00f;
 	padding:20px;
@@ -32,27 +32,31 @@ h1{
 	width: max-content;
 	color:#fff;
 }
-#popap__close{
+#popup__close{
 	position: absolute;
 	top:-10px;
 	right: 20px;
 	cursor: pointer;
-	background: #ff8100;
+	background: #0072ff;
 	width:20px;
 	height: 20px;
 	border-radius: 100%;
 }
-#popap input{
+#popup__close:hover{
+	background: #ff8100;
+
+}
+#popup input{
 	height: 30px;
 	padding: 0 15px;
 	border: none;
 	margin-top: 15px;
 	outline: none;
 }
-#popap input[type='tel']{
+#popup input[type='tel']{
 	border-radius:5px 0 0 5px;
 }
-#popap input[type='button']{
+#popup input[type='button']{
 	border-radius:0 5px 5px 0;
 	background-color: #f00;
 }
