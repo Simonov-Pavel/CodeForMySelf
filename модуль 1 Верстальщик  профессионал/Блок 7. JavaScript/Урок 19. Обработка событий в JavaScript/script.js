@@ -23,31 +23,29 @@ function src() {
 
 var batton = document.getElementsByTagName('button');
 
+function addEvent(target, type, func){
+	if(target.addEventListener) target.addEventListener(type, func, false);
+	else if(target.attachEvent) target.attachEvent('on'+type, function(e){
+		return func.call(target, e);
+	});
+}
+function removeEvent(target, type, func){
+	if(target.removeEventListener) target.removeEventListener(type, func, false);
+	else if(target.detachEvent) target.detachEvent('on'+type, function(e){
+		return func.call(target, e);
+	});
+}
+
 for(var i = 0; i < batton.length; i++){
-	if(batton[i].addEventListener) batton[i].addEventListener('click',addRed, false);
-	else if(batton[i].attachEvent) batton[i].attachEvent('onclick', addRed);
+	addEvent(batton[i], 'click', addRed);
 }
 function addRed(){
 	this.style.color = 'red';
-	if(this.addEventListener){
-		this.removeEventListener('click', addRed, false);	
-		this.addEventListener('click', addGreen, false);	
-	}
-	else if(this.attachEvent){
-		this.attachEvent('onclick', addRed, false);	
-		this.detachEvent('onclick', addGreen, false);
-	}
+	removeEvent(this, 'click', addRed);
+	addEvent(this, 'click', addGreen);
 }
 function addGreen(){
 	this.style.color = 'green';
-	if(this.addEventListener){
-		this.removeEventListener('click', addGreen, false);	
-		this.addEventListener('click', addRed, false);	
-	}
-	else if(this.attachEvent){
-		this.attachEvent('onclick', addGreen, false);	
-		this.detachEvent('onclick', addRed, false);
-	}
-
-
+	removeEvent(this, 'click', addGreen);
+	addEvent(this, 'click', addRed);
 }
