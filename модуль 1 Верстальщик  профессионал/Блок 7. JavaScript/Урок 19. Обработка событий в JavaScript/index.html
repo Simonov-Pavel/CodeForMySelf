@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Обработка событий в JavaScript</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src='script.js'></script>
+	
 </head>
 <body>
 	<h1 id='header'>JavaScript</h1>
@@ -14,11 +14,11 @@
 		<img src="img/4.jpg" alt="" onclick='alert("src=img/4.jpg");'>
 		<img src="img/3.jpg" alt="" onclick='alert("src=img/3.jpg");'>
 	</div>
-	<p id="text"></p>
+	<div id="text"></div>
 	<form action="#" method='post' name='myForm' id='firstForm'>
 		<div class="form">
 			<label for="address">Ваш адрес</label>
-			<input type="text" name="address" id="address" placeholder='address'>
+			<input type="text" name="address" id="address" placeholder='address'     onblur='func()'>
 		</div>
 		<div class="form">
 			<label for="email">Ваш email</label>
@@ -40,6 +40,6 @@
 		</div>
 		<button type='button' name='button'>Отправить</button>
 	</form>
-	
+	<script src='script.js'></script>
 </body>
 </html>
