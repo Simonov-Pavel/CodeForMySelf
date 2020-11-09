@@ -3,22 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Обработка событий в JavaScript</title>
+	<title>Аргументы обработчиков событий. Отмена событий</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 </head>
 <body>
 	<h1 id='header'>JavaScript</h1>
-	<div class="img">
-		<img src="img/1.jpg" alt="" onclick='alert("src=img/1.jpg");'>
-		<img src="img/4.jpg" alt="" onclick='alert("src=img/4.jpg");'>
-		<img src="img/3.jpg" alt="" onclick='alert("src=img/3.jpg");'>
+	<div class="link">
+		<a href='img/1.jpg'>Изображение 1</a>
+		<a href='img/2.jpg'>Изображение 2</a>
+		<a href='img/3.jpg'>Изображение 3</a>
+		<a href='img/4.jpg'>Изображение 4</a>
 	</div>
-	<div id="text"></div>
 	<form action="#" method='post' name='myForm' id='firstForm'>
 		<div class="form">
 			<label for="address">Ваш адрес</label>
-			<input type="text" name="address" id="address" placeholder='address'     onblur='func()'>
+			<input type="text" name="address" id="address" placeholder='address'>
 		</div>
 		<div class="form">
 			<label for="email">Ваш email</label>

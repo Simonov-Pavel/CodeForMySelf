@@ -20,3 +20,9 @@ h1{
 .checkbox{
 	margin: 10px 0;
 }
+
+.link a{
+	display: flex;
+    margin: 10px 0;
+    width: max-content;
+}
