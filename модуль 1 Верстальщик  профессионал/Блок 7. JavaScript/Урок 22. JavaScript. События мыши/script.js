@@ -1,26 +1,52 @@
-var div = document.getElementsByTagName('div');
-for(var i = 0; i < div.length; i++){
-	addEvent(div[i],'click',redColor);
+//click - Срабатывает, когда пользователь нажимает и опускает кнопку мыши или иным образом "активирует" элемент
+//contextmenu - Срабатывает перед выводом контекстного меню
+//dblclick - Срабатывает, когда пользователь выполняет двойной щелчок
+//mousedown - Срабатывает, когда пользователь нажимает кнопку мыши
+//mouseup - Срабатывает, когда пользователь отпускает кнопку мыши 
+//mousemove - Срабатывает, когда пользователь перемещает указатель мыши
+//mouseover - Срабатывает, когда указатель мыши помещается над элементом
+//mouseout - Срабатывает, когда указатель мыши покидает элемент
+//mouseenter - Подобно 'mouseover',но не всплывает
+//mouseleave - Подобно 'mouseout', но не всплывает
+
+var div = document.getElementById('div');
+
+div.onmousedown = function(e) {
+
+  var coords = getCoords(div);
+  var shiftX = e.pageX - coords.left;
+  var shiftY = e.pageY - coords.top;
+
+ // div.style.position = 'absolute';
+  document.body.appendChild(div);
+  moveAt(e);
+
+  //div.style.zIndex = 1000; // над другими элементами
+
+  function moveAt(e) {
+    div.style.left = e.pageX - shiftX + 'px';
+    div.style.top = e.pageY - shiftY + 'px';
+  }
+
+  document.onmousemove = function(e) {
+    moveAt(e);
+  };
+
+  div.onmouseup = function() {
+    document.onmousemove = null;
+    div.onmouseup = null;
+  };
+
 }
-function addEvent(target, type, func){
-	if(target.addEventListener) target.addEventListener(type, func, false);
-	else target.attachEvent('on'+type, func);
-}
-function removeEvent(target, type, func){
-	if(target.removeEventListener) target.removeEventListener(type, func, false);
-	else target.detachEvent('on'+type, function(e){
-		return func.call(target, e);
-	});
-}
-function redColor(event){
-	this.style.background = 'red';
-	event.stopPropagation();
-	removeEvent(this, 'click', redColor);
-	addEvent(this, 'click', greenColor);
-}
-function greenColor(event){
-	this.style.background = 'green';
-	event.stopPropagation();
-	removeEvent(this, 'click', greenColor);
-	addEvent(this, 'click', redColor);
+
+div.ondragstart = function() {
+  return false;
+};
+
+function getCoords(elem) {   // кроме IE8-
+  var box = elem.getBoundingClientRect();
+  return {
+    top: box.top + pageYOffset,
+    left: box.left + pageXOffset
+  };
 }
