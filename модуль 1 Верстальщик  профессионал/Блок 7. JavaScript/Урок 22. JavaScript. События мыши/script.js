@@ -73,8 +73,8 @@ if(e.preventDefault) e.preventDefault();
 
 }
 
-function getCoords(elem) { 
-  var box = elem.getBoundingClientRect();
+function getCoords(el) { 
+  var box = el.getBoundingClientRect();
   return {
     top: box.top + pageYOffset,
     left: box.left + pageXOffset
