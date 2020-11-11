@@ -9,44 +9,75 @@
 //mouseenter - Подобно 'mouseover',но не всплывает
 //mouseleave - Подобно 'mouseout', но не всплывает
 
-var div = document.getElementById('div');
 
-div.onmousedown = function(e) {
+/*function drag(el, event){
+	var scroll = getScroll();
+	var startX = event.clientX + scroll.x;
+	var startY = event.clientY + scroll.y;
+	var elX = el.offsetLeft;
+	var elY = el.offsetTop;
+	var deltaX = startX - elX;
+	var deltaY = startY - elY;
+	addEvent(document, 'mousemove', moveHandler);
+	addEvent(document, 'mouseup', upHandler);
+	if(event.stopPropagation) event.stopPropagation();
+	if(event.preventDefault) event.preventDefault();
+	function moveHandler(e){
+		el.style.left = (e.clientX + scroll.x - deltaX) + 'px';
+		el.style.top = (e.clientY + scroll.y - deltaY) + 'px';
+	}
+	function upHandler(e){
+		removeEvent(document, 'mousemove', moveHandler);
+		removeEvent(document, 'mouseup', upHandler);
+	}
+	
+}
 
-  var coords = getCoords(div);
-  var shiftX = e.pageX - coords.left;
-  var shiftY = e.pageY - coords.top;
+function getScroll(w){
+	w = w || window;
+	if(w.pageXOffset != null){
+		return {x: w.pageXOffset, y: w.pageYOffset}
+	}
+}
 
- // div.style.position = 'absolute';
-  document.body.appendChild(div);
-  moveAt(e);
+function addEvent(target, type, func){
+	if(target.addEventListener) target.addEventListener(type, func, true);
+	else target.attachEvent('on'+type, func);
+}
+function removeEvent(target, type, func){
+	if(target.removeEventListener) target.removeEventListener(type, func, true);
+	else target.detachEvent(type, function(e){
+		return func.call(target, e);
+	})
+}*/
 
-  //div.style.zIndex = 1000; // над другими элементами
 
-  function moveAt(e) {
-    div.style.left = e.pageX - shiftX + 'px';
-    div.style.top = e.pageY - shiftY + 'px';
-  }
+function drag(el, e) {
 
-  document.onmousemove = function(e) {
-    moveAt(e);
-  };
+var coords = getCoords(el);
+var shiftX = e.clientX - coords.left;
+var shiftY = e.clientY - coords.top;
 
-  div.onmouseup = function() {
+if(e.stopPropagation) e.stopPropagation();
+if(e.preventDefault) e.preventDefault();
+
+ document.onmousemove = function(e) {
+    el.style.left = e.clientX - shiftX + 'px';
+    el.style.top = e.clientY - shiftY + 'px';
+ };
+
+  el.onmouseup = function() {
     document.onmousemove = null;
-    div.onmouseup = null;
+    el.onmouseup = null;
   };
 
 }
 
-div.ondragstart = function() {
-  return false;
-};
-
-function getCoords(elem) {   // кроме IE8-
+function getCoords(elem) { 
   var box = elem.getBoundingClientRect();
   return {
     top: box.top + pageYOffset,
     left: box.left + pageXOffset
   };
 }
+
