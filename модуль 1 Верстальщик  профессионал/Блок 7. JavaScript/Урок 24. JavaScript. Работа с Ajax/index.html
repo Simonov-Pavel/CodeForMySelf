@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>События клавиатуры и элементов форм</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<h1 id='header'>JavaScript</h1>
+	<form action="server.php" method='post' name='myForm' id='firstForm'>
+		<div class="form">
+			<label for="name">Ваше имя</label>
+			<input type="text" name="name" id="name" placeholder='Введите ваше имя' required='required'>
+			<label for="email">Ваш email</label>
+			<input type="email" name="email" id="email" placeholder='Введите ваш email' required='required'>
+		</div>
+		<button type='submit' name='button' id='button'>Заказать</button>
+	</form>
+	<script src='script.js'></script>
+</body>
+</html>
