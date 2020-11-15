@@ -8,6 +8,21 @@ function func(){
 		.animate({'opacity': 0},2000)
 		.animate({'fontSize': '0px'},50)
 		.animate({'opacity': 1},50)
-		.animate({'fontSize': '72px'},2000);
+		.animate({'fontSize': '72px'},2000, setColor);
 
+}
+
+function setColor(){
+	var H1 = $('.grid_12 header h2');
+	if(H1.css('color') == 'white'){
+		setTimeout(function(){
+			H1.css('color', 'red')
+		},2000);
+}
+else {
+	setTimeout(function(){
+			H1.css('color', 'white')
+		},2000);
+}
+func();
 }
