@@ -13,9 +13,9 @@ function func(){
 
 		//Добавить к заголовку H1 класс title
 	var H1 = $('.grid_12 > h1');
-	if(H1.hasClass('title')){
+	/*if(H1.hasClass('title')){
 		H1.removeClass('title');
 	}
-	else H1.addClass('title');
-
+	else H1.addClass('title');*/
+	H1.toggleClass('title');
 }
