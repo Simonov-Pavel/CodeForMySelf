@@ -6,7 +6,7 @@ function func(){
 	$('img').css('border', '2px solid red');
 
 		//Изменить значение атрибута src для изображения
-	img.removeAttr('src', 'rrr');
+	img.removeAttr('src');
 	alert(img.attr('src'));
 
 }
