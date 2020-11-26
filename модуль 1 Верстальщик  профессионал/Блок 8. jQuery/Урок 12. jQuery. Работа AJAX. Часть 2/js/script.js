@@ -18,6 +18,7 @@
 //.serializeArray() - Кодируйте набор элементов формы в виде массива имен и значений.
 jQuery(function($){
 
+
 	$('#btn').click(function(e){
 		e = e || window.event;
 		if(e.preventDefault) e.preventDefault();
@@ -26,10 +27,9 @@ jQuery(function($){
 
 		$('#ajax').html('<span>Отправлено!</span>').fadeIn(1000,function(){
 			var result = $('#contact-form').serializeArray();
-
 			$.ajax({
 				url : 'server.php',
-				type : 'POST',
+				type : 'GET',
 				data : result,
 				dataType : 'json',
 				context : document.getElementById('ajax'),
@@ -43,9 +43,21 @@ jQuery(function($){
 					});
 				},
 				error : function(){
-
+					alert('ошибка');
 				}
 			});
+			/*var jqXHR = $.get('server.php', result, function(){}, 'json');
+			jqXHR.then(function(){
+				$(this).find('span') .fadeOut(300, function(){
+					$(this).text('Добавлено!').fadeIn(300);
+				});
+				$(this).delay(1000).fadeOut(1000,function(){
+					$('.grid_5').append('<h3>'+ data.name +'</h3><p>'+ data.text +'</p>');
+				});
+			},
+			function(){
+				alert('fail');
+			});*/
 		});
 	});
 

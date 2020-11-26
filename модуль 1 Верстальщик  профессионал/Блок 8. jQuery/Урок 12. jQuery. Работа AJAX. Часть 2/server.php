@@ -21,6 +21,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	exit();
 }
 else {
+	echo "alert";
+	$data = $_GET;
+
+	$sql = "INSERT INTO `messages` (`name`,`email`,`subject`,`message`) VALUES ('".$data['name']."','".$data['email']."','".$data['subject']."','".$data['text']."')";
+	$db->query($sql);
 	echo json_encode($_GET);
 	exit();
 }
