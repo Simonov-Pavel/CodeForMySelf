@@ -33,8 +33,6 @@ jQuery(function($){
 				data : result,
 				dataType : 'json',
 				context : document.getElementById('ajax'),
-				cache : true,
-				complete : function(jqXHR, status){alert(status)},
 				success : function(data, status, jqXHR){
 					
 					$(this).find('span') .fadeOut(300, function(){
