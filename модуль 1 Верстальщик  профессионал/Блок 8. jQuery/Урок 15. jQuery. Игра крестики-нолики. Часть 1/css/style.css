@@ -21,6 +21,7 @@ h1{
   height: 120px;
 }
 .cell{
+  position: relative;
   width: 120px;
   height: 100%;
   display: block;
@@ -31,7 +32,7 @@ h1{
 .cell:hover{
   background-color: #0000007d;
 }
-.col-x,.col-o{
+.cell-x,.cell-o{
   background-image: url('../images/XO.png');
 }
 .offset-x{
@@ -39,4 +40,13 @@ h1{
 }
 .offset-o{
   background-position: -120px center;
+}
+.rotate{
+  border: 3px solid #fff;
+  display: block;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  bottom: -30px;
 }
