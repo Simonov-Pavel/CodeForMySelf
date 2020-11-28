@@ -6,16 +6,24 @@ body {
   background: #fff;
   font: 14px/24px Georgia, 'Times New Roman', Times, serif;
 }
+.error{
+  color: red;
+}
 h1{
   text-align: center;
   margin: 20px;
 }
-
 .wrap{
   background-color: #fff;
   width: 390px;
   height: 390px;
   margin: 50px auto;
+  display: none;
+}
+.rivals{
+  font-size: 150%;
+  margin: 20px 0;
+  text-align: center;
 }
 .row{
   display: block;
@@ -71,4 +79,17 @@ h1{
   top: -30px;
   bottom: -30px;
   left: 50%;
+}
+.start{
+  width: 390px;
+  height: 390px;
+  margin: 50px auto;
+  text-align: center;
+}
+.start div{
+  margin: 10px 0;
+}
+.start input{
+  padding:10px 20px;
+  border-radius: 10px;
 }
