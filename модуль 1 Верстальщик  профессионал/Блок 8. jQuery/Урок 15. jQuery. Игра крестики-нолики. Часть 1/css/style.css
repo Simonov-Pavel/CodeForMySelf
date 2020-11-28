@@ -42,3 +42,33 @@ h1{
 .offset-o{
   background-position: -120px center;
 }
+.rotate{
+  border: 3px solid #fff;
+  display: block;
+  position: absolute;
+  color: #f00;
+}
+.horizont{
+  transform: rotate(90deg);
+  top: 0;
+  bottom: -6px;
+  left: 50%;
+}
+.vertical{
+  transform: rotate(0);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+.diagonal-1{
+  transform: rotate(-45deg);
+  top: -30px;
+  bottom: -30px;
+  left: 50%;
+}
+.diagonal-2{
+  transform: rotate(45deg);
+  top: -30px;
+  bottom: -30px;
+  left: 50%;
+}
