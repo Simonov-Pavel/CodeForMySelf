@@ -20,6 +20,9 @@ h1{
   margin: 50px auto;
   display: none;
 }
+input{
+  outline: none;
+}
 .rivals{
   font-size: 150%;
   margin: 20px 0;
@@ -81,10 +84,7 @@ h1{
   left: 50%;
 }
 .start{
-  width: 390px;
-  height: 390px;
-  margin: 50px auto;
-  text-align: center;
+  margin: 0 400px;
 }
 .start div{
   margin: 10px 0;
