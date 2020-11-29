@@ -20,14 +20,21 @@ h1{
   margin: 50px auto;
   display: none;
 }
-input{
-  outline: none;
-}
-.rivals{
-  font-size: 150%;
+.opponents{
   margin: 20px 0;
   text-align: center;
 }
+.opponents span{
+  color: red;
+  font-size: 150%;
+}
+.move{
+  text-align: center;
+}
+input{
+  outline: none;
+}
+
 .row{
   display: block;
   height: 120px;

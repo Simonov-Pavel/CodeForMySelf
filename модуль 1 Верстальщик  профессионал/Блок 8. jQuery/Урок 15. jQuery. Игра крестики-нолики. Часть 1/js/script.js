@@ -2,10 +2,19 @@ jQuery(function($){
 	var player_1;
 	var player_2;
 	var error = false;
+	var winCellIndex = [
+		[0,1,2],[3,4,5],[6,7,8],	//horizont
+		[0,3,6],[1,4,7],[2,5,8],	//vertical
+		[0,4,8],[2,4,6]				//diagonal
+	];
+	var selectedCells = {
+		'x' : [],
+		'o' : []
+	}
 	
 	$('.start #submit').on('click',function(event){
 		event.preventDefault();
-		//if($('input[type="text"]').val() === '')
+
 		player_1 = document.getElementById('player-1').value;
 		player_2 = document.getElementById('player-2').value;
 		if(player_1 == ''){
@@ -37,21 +46,69 @@ jQuery(function($){
 		else {
 			$('.start').fadeOut(300);
 			$('.wrap').fadeIn(300);
-			$('.rivals').text(player_1+' VS '+player_2);
-			alert('Первый ходит игрок X - '+player_1);
+			$('.opponents').html('<h2>'+player_1+' <span>VS</span> '+player_2+'</h2>');
+			$('.move').text('Сейчас ходит X - '+ player_1);
 		}
 	})
 	var player = 'x';
 	$('.wrap').on('click','.cell:not("cell-x, cell-o")', function oneStep(event){
 		var $cell = $(event.currentTarget);
 		$cell.addClass('cell-'+player+' offset-'+player);
+		var indexCell = $('.wrap .cell').index($cell);
+		var selectedCellPlayer = selectedCells[player];
+		selectedCellPlayer.push(indexCell);
+
+		checkWinner(selectedCellPlayer);
+
 		if(player === 'x'){
-			player = 'o';			
+			player = 'o';
+			$('.move').text('Сейчас ходит O - '+ player_2);			
 		} 
 		else{
 			player = 'x';
+			$('.move').text('Сейчас ходит X - '+ player_1);
 		} 
 	});
+	function checkWinner(selectedCellPlayer){
+		for(var i = 0; i < winCellIndex.length; i++){
+			var allWinCell = true;
+			for(var j = 0; j< winCellIndex[i].length; j++){
+				if($.inArray(winCellIndex[i][j], selectedCellPlayer ) === -1){
+					allWinCell = false;
+				}
+			}
+
+			if(allWinCell){
+				alert('player '+player+' win!!!');
+
+				$('.cell').each(function(ind, element){
+					if($.inArray(ind, winCellIndex[i]) !== -1){
+					var cl = 'rotate'
+						if(i <= 2) cl += ' horizont';
+						else if(i >= 3 && i<=5) cl += ' vertical';
+						else cl += ($.inArray(0, winCellIndex[i]))? ' diagonal-2': ' diagonal-1';
+					
+					} 
+					$(this).find('span').addClass(cl);
+				});
+				$('.wrap').off('click');
+				$('.move').hide();
+				break;
+			}
+
+			
+			if(!allWinCell && $('.cell:not(".cell-x, .cell-o")').length === 0){
+				alert('Ничья');
+				$('.wrap').off('click');
+				$('.move').hide();
+				break;
+			}
+			
+				
+			
+		}	
+			
+	}
 
 });
 
