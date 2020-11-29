@@ -1,6 +1,8 @@
 jQuery(function($){
 	var player_1;
 	var player_2;
+	
+	
 	var error = false;
 	var winCellIndex = [
 		[0,1,2],[3,4,5],[6,7,8],	//horizont
@@ -79,7 +81,10 @@ jQuery(function($){
 			}
 
 			if(allWinCell){
-				alert('player '+player+' win!!!');
+			var selectedPlayer = {
+				'x' : player_1,
+				'o' : player_2
+			}	
 
 				$('.cell').each(function(ind, element){
 					if($.inArray(ind, winCellIndex[i]) !== -1){
@@ -90,6 +95,8 @@ jQuery(function($){
 					
 					} 
 					$(this).find('span').addClass(cl);
+					$('.winPlayer').html('Игрок <h2>'+selectedPlayer[player]+'</h2> победил!!!<br><button type="submit" onclick="location.reload();">Играть еще раз</button>');
+					$('.winWrap').fadeIn(1000);
 				});
 				$('.wrap').off('click');
 				$('.move').hide();
@@ -98,9 +105,10 @@ jQuery(function($){
 
 			
 			if(!allWinCell && $('.cell:not(".cell-x, .cell-o")').length === 0){
-				alert('Ничья');
 				$('.wrap').off('click');
 				$('.move').hide();
+				$('.winPlayer').html('Победила дружба - Ничья!!!<br><button type="submit" onclick="location.reload();">Играть еще раз</button>');
+				$('.winWrap').fadeIn(1000);
 				break;
 			}
 			

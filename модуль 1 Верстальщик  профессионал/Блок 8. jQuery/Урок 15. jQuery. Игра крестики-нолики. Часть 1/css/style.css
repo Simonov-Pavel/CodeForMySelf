@@ -20,6 +20,36 @@ h1{
   margin: 50px auto;
   display: none;
 }
+.winWrap{
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display:none;
+}
+.winPlayer{
+  background-color: #fff;
+  padding: 30px;
+  border: none;
+  border-radius: 20px;
+  width:500px;
+  margin: 200px auto;
+  font-size: 150%;
+  text-align: center;
+  animation: win 3s ease-in-out;
+}
+@keyframes win {
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 500px;
+  }
+}
+
 .opponents{
   margin: 20px 0;
   text-align: center;
