@@ -1,9 +1,14 @@
+$bg-color: #999;
+$color: #f00;
+
 body{
-    background: #f00;
+    background: $bg-color;
 }
 .block{
     width: 500px;
     margin: 20px auto;
-    display: flex;
     animation: fg 2s ease-in-out;
+    p{
+        color: $color;
+    }
 }

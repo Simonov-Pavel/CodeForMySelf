@@ -11,7 +11,8 @@ gulp.task('sass', function(){
         .pipe(sourceMaps.init())
         .pipe(sass())
         .pipe(autoprefixer({
-            browsers: ['last 2 versions']
+            overrideBrowserlist: ["last 5 versions"],
+            cascade: true
         }))
         .pipe(sourceMaps.write())
         .pipe(gulp.dest('build/css'))
@@ -23,11 +24,11 @@ gulp.task('html', function(){
         .pipe(browseSync.reload({stream: true}));
 });
 
-gulp.task('serve', ['html', 'sass'], function(){
+gulp.task('serve', function(){
     browseSync.init({
         server: 'build'
     });
 
-    gulp.watch('scss/**/*.scss', gulp.parallel('sass'));
+    gulp.watch('scss/**/*.scss', gulp.parallel('sass') );
     gulp.watch('*.html', gulp.parallel('html'));
 });
