@@ -11,8 +11,7 @@ gulp.task('sass', function(){
         .pipe(sourceMaps.init())
         .pipe(sass())
         .pipe(autoprefixer({
-            overrideBrowserlist: ["last 5 versions"],
-            cascade: true
+            browsers: ['last 2 versions']
         }))
         .pipe(sourceMaps.write())
         .pipe(gulp.dest('build/css'))
@@ -24,7 +23,7 @@ gulp.task('html', function(){
         .pipe(browseSync.reload({stream: true}));
 });
 
-gulp.task('serve', function(){
+gulp.task('serve', ['html', 'sass'], function(){
     browseSync.init({
         server: 'build'
     });
