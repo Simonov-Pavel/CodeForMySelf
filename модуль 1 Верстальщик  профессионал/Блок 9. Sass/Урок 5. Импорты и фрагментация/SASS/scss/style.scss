@@ -1,0 +1,14 @@
+@import 'variable';
+@import 'test';
+
+body{
+    background: $bg-color;
+}
+.block{
+    width: 500px;
+    margin: 20px auto;
+    animation: fg 2s ease-in-out;
+    p{
+        color: $color;
+    }
+}
