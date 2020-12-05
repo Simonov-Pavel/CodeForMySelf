@@ -1,0 +1,20 @@
+@mixin paragraph($fs:15px, $fw:normal, $color: #000) {
+	font-size: $fs;
+	font-weight: $fw;
+	line-height: 20px;
+	color: $color;
+	@include linc;
+	span{
+		font-weight: bold;
+	}
+}
+@mixin linc {
+	a{
+		text-decoration: none;
+		color: red;
+		cursor: pointer;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
