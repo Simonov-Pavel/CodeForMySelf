@@ -1,0 +1,33 @@
+@import 'variable';
+@import 'mixins';
+
+@include h;
+
+body{
+	background-color: $bg-color;
+	margin: $margin;
+	padding: $padding;
+	color: $color
+}
+.block {
+	@include div(#f00, 20px, grey);
+	width: 600px;
+	padding: 20px;
+	margin: 20px auto;
+	border: 2px solid red;
+}
+.block2{
+	@extend .block;
+	@include div(#0f0, 18px, black);
+
+	width: 400px;
+}
+.block3{
+	@extend .block;
+	@include div($fs: 25px, $col: #000);
+	width: 300px;
+}
+
+.btn{
+	@include button($border: true);
+}
