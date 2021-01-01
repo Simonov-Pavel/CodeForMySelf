@@ -1,0 +1,83 @@
+.stats {
+	.stats__progress {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		max-width: 610px;
+		margin: 45px auto;
+
+		.stats__category {
+			margin: 10px;
+
+			img {
+				height: 50px;
+			}
+			.stats__pieses {
+				font-size: 24px;
+				color: $color-section;
+				margin: 20px auto 0;
+			}
+			p {
+				font-size: 14px;
+				line-height: 16px;
+				margin: 0 auto;
+			}
+		}
+	}
+	.text {
+		display: inline-block;
+		max-width: 620px;
+		background: url('../img/quote-left.png') no-repeat left 10px,
+					url('../img/quote-right.png') no-repeat right bottom;
+		padding: 0 60px;
+	}
+	.stats_hero {
+		.stats__name {
+			font-size: 22px;
+			color: $color-section;
+		}
+		.stats__speciality {
+			font-size: 16px;
+			line-height: 20px;
+			margin: 10px auto 0;
+		}
+	}
+
+	.owl-nav {
+		button.owl-prev, button.owl-next  {
+			background: url('../img/arrow.png') 0 0 no-repeat;
+			width: 49px;
+			height: 49px;
+			border: none;
+			box-shadow: none;
+			position: absolute;
+			left: 5px;
+			top: 50%;
+			transform: translateY(-50%);
+			cursor: pointer;
+		}
+		button.owl-prev {
+			&:hover {
+				background-position: 0 -49px;
+			}
+		}
+		button.owl-next {
+			background-position: -49px 0;
+			left: auto;
+			right: 5px;
+
+			&:hover {
+				background-position: -49px -49px;
+			}
+		}
+		
+	}
+}
+
+@media (max-width: 880px) {
+	.stats {
+		.text {
+			padding: 0 30px;
+		}
+	}
+}
