@@ -1,0 +1,63 @@
+.keep {
+	display: flex;
+	justify-content: space-around;
+	max-width: 660px;
+	margin: 55px auto;
+	flex-wrap: wrap;
+
+	.keep__touch {
+		max-width: 160px;
+		margin: 10px;
+
+		img {
+			height: 20px;
+		}
+
+		.title {
+			font-size: 24px;
+			color: $color-section;
+			margin: 20px auto 0;
+		}
+
+		p {
+			font-size: 14px;
+			line-height: 16px;
+			margin: 10px auto 0;
+		}
+	}
+
+}
+
+#keep__touch {
+	max-width: 485px;
+	margin: 0 auto;
+	input, textarea {
+		
+		width: 100%;
+		padding: 10px;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 25px;
+		border: 1px solid $color-section;
+		outline: 1px solid $color-section;
+		box-sizing: border-box;
+
+		&:focus {
+			outline: none;
+		}
+		
+	}
+
+	.keep__btn {
+		@include btn($bg: $black, $clr: $white, $p: 20px 0, $w: 170px) {
+			margin: 0 auto;
+		};
+	}
+}
+
+@media (max-width: 1024px) {
+	#keep {
+		margin: 30px auto 0;
+	}
+	
+}

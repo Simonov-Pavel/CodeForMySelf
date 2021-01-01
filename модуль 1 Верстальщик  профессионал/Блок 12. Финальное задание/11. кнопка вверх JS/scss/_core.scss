@@ -1,0 +1,24 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;;
+	font-size: 16px;
+	@include min-max(320px, 100%);
+	background-color: $white;
+	scroll-behavior: smooth;
+}
+
+.wrap {
+	@include min-max(320px, 950px){
+		box-sizing: border-box;
+		text-align: center;
+	}
+}
+p {
+	color: $color-text;
+}
+
+h2 {
+	color: $color-section;
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 700;
+}

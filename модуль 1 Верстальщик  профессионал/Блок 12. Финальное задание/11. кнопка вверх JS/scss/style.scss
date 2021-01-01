@@ -1,0 +1,18 @@
+@charset 'UTF-8';
+
+@import 'mixins';
+@import 'variables';
+@import 'reset';
+@import 'core';
+@import 'fonts';
+
+@import 'blocks/header__top';
+@import 'blocks/main';
+@import 'blocks/features';
+@import 'blocks/pricing';
+@import 'blocks/works';
+@import 'blocks/team';
+@import 'blocks/stats';
+@import 'blocks/keep';
+@import 'blocks/footer';
+@import 'blocks/btn-up';
