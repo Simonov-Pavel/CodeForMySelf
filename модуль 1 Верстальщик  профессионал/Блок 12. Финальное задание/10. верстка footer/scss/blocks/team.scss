@@ -1,0 +1,29 @@
+.team {
+	max-width: 880px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 60px auto 0;
+
+	.team__team {
+		max-width: 175px;
+		margin: 10px;
+
+		.team__name {
+			font-size: 22px;
+			color: $color-section;
+		}
+		.team__specialty {
+			font-size: 16px;
+			line-height: 20px;
+			margin: 10px auto;
+		}
+		.team__description {
+			font-size: 14px;
+			line-height: 18px;
+		}
+		.team__icon {
+			margin: 15px 10px;
+		}
+	}
+}
