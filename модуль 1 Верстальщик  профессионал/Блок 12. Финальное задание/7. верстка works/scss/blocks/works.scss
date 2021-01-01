@@ -1,0 +1,45 @@
+.works {
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	.works__work {
+		margin: 30px 6px;
+		max-width: 220px;
+		.works__img {
+			position: relative;
+			color: $white;
+			
+			img {
+				display: block;
+				position: relative;
+			}
+			.view {
+				position: absolute;
+				left: 10px;
+				bottom: 10px;
+				padding-left: 26px;
+				background: url('../img/icon-eye.png') no-repeat left center;
+			}
+			.data {
+				position: absolute;
+				right: 10px;
+				bottom: 10px;
+				padding-right: 26px;
+				background: url('../img/icon-clock.png') no-repeat right center;
+			}
+		}	
+		
+		.title {
+			font-size: 22px;
+			color: $color-section;
+			font-weight: 700;
+			margin: 20px auto 0;
+		}
+		p {
+			font-size: 16px;
+			line-height: 20px;
+			margin: 10px auto 0;
+		}
+	}
+}
