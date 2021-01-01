@@ -1,0 +1,31 @@
+@mixin min-max($min-width, $max-width) {
+	min-width: $min-width;
+	max-width: $max-width;
+	margin: 0 auto;
+	@content;
+}
+
+@mixin btn($bg: $white, $fs: 16px, $lh: 24px, $w: 140px,$p: 10px, $clr: $bg-footer, $bw: 2px) {
+	border: $bw solid $color-section;
+	width: $w;
+	color: $clr;
+	font-size: $fs;
+	line-height: $lh;
+	background-color: $bg;
+	padding: $p;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 25px 0;
+	text-decoration: none;
+	@content;
+
+	&:hover {
+		@if $bg == $black {
+			background-color: lighten($bg, 15%);
+		}@else {
+			background-color: darken($bg, 15%);
+		}
+		
+	}
+}
