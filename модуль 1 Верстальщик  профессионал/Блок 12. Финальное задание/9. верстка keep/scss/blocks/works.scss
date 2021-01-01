@@ -1,0 +1,76 @@
+#works{ 
+position: relative;
+}
+.works {
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	.works__work {
+		margin: 30px 6px;
+		max-width: 220px;
+		.works__img {
+			position: relative;
+			color: $white;
+
+			.wrap-works {
+				background-color: rgba(0, 0, 0, .5);
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: 50;
+				opacity: 0;
+			}
+				.wrap-works img{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					z-index: 100;
+					transform: translate(-50%, -50%);
+					cursor: zoom-in;
+				}	
+			
+			
+			img {
+				display: block;
+				position: relative;
+			}
+			.view {
+				position: absolute;
+				left: 10px;
+				bottom: 10px;
+				padding-left: 26px;
+				background: url('../img/icon-eye.png') no-repeat left center;
+				z-index: 100;
+			}
+			.data {
+				position: absolute;
+				z-index: 100;
+				right: 10px;
+				bottom: 10px;
+				padding-right: 26px;
+				background: url('../img/icon-clock.png') no-repeat right center;
+			}
+		&:hover .wrap-works {
+			opacity: 1;
+		}
+			
+		}	
+		
+		.title {
+			font-size: 22px;
+			color: $color-section;
+			font-weight: 700;
+			margin: 20px auto 0;
+		}
+		p {
+			font-size: 16px;
+			line-height: 20px;
+			margin: 10px auto 0;
+		}
+	}
+}
+
+ 
