@@ -1,0 +1,44 @@
+.messages {
+	max-height: 400px;
+	overflow: auto;
+}
+
+.red {
+	color: #f00;
+}
+
+.message {
+	margin: 10px 0;
+	max-width: 500px;
+}
+
+.message p{
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #ccc;
+	position: relative;
+}
+
+.message p.message__author {
+	font-weight: bold;
+}
+
+.message p.message__text span {
+	margin: 10px 0 0;
+	text-align: end;
+    display: block;
+}
+
+
+.message p.message__text::before {
+	content: '';
+	display: block;
+	position: absolute;
+	border: 5px solid transparent;
+    border-bottom: 10px solid #000;
+    top: -15px;
+    left: 5px;
+}
