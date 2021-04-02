@@ -1,0 +1,4 @@
+[2021-04-02 14:33:04] Текст ошибки:No connect | Файл:W:\domains\ishop.loc\vendor\ishop\core\Db.php | Строка:18
+==================================
+[2021-04-02 15:26:09] Текст ошибки:Class 'app\controllers\Cache' not found | Файл:W:\domains\ishop.loc\app\controllers\MainController.php | Строка:18
+==================================
