@@ -1,0 +1,94 @@
+[2021-04-02 14:33:04] Текст ошибки:No connect | Файл:W:\domains\ishop.loc\vendor\ishop\core\Db.php | Строка:18
+==================================
+[2021-04-02 15:26:09] Текст ошибки:Class 'app\controllers\Cache' not found | Файл:W:\domains\ishop.loc\app\controllers\MainController.php | Строка:18
+==================================
+[2021-04-03 10:50:35] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 11:44:02] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:23:10] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:23:18] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:24:13] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:24:50] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:29:18] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:30:32] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:30:57] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 14:36:20] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 15:32:40] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 15:32:46] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 16:44:32] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 05:19:47] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 07:07:26] Текст ошибки:Function name must be a string | Файл:W:\domains\ishop.loc\app\widgets\currency\Currency.php | Строка:35
+==================================
+[2021-04-04 07:14:42] Текст ошибки:Too few arguments to function ishop\Registry::getProperty(), 0 passed in W:\domains\ishop.loc\app\controllers\AppController.php on line 21 and exactly 1 expected | Файл:W:\domains\ishop.loc\vendor\ishop\core\Registry.php | Строка:18
+==================================
+[2021-04-04 07:18:37] Текст ошибки:Call to undefined function app\controllers\debug() | Файл:W:\domains\ishop.loc\app\controllers\AppController.php | Строка:20
+==================================
+[2021-04-04 08:20:57] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:21:01] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:22:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:22:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:44:00] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:44:24] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:44:40] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:48:35] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:50:51] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:51:17] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:58:15] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 09:02:09] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 10:04:44] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:05:38] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:06:41] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:07:46] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 10:13:59] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:14:21] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:14:27] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:14:37] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:15:34] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:15:54] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:17:06] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:17:27] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:25:56] Текст ошибки:syntax error, unexpected '*' | Файл:W:\domains\ishop.loc\app\views\Main\index.php | Строка:60
+==================================
+[2021-04-04 12:15:25] Текст ошибки:Too few arguments to function ishop\Registry::setProperty(), 1 passed in W:\domains\ishop.loc\app\widgets\menu\Menu.php on line 45 and exactly 2 expected | Файл:W:\domains\ishop.loc\vendor\ishop\core\Registry.php | Строка:13
+==================================
+[2021-04-04 14:11:13] Текст ошибки:syntax error, unexpected '=', expecting ']' | Файл:W:\domains\ishop.loc\app\views\layouts\watchas.php | Строка:71
+==================================
+[2021-04-04 14:47:24] Текст ошибки:Контролер app\controllers\CategoryController не найден | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:42
+==================================
