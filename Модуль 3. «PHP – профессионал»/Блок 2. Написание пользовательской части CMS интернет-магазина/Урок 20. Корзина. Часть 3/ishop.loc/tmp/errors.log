@@ -1,0 +1,234 @@
+[2021-04-02 14:33:04] Текст ошибки:No connect | Файл:W:\domains\ishop.loc\vendor\ishop\core\Db.php | Строка:18
+==================================
+[2021-04-02 15:26:09] Текст ошибки:Class 'app\controllers\Cache' not found | Файл:W:\domains\ishop.loc\app\controllers\MainController.php | Строка:18
+==================================
+[2021-04-03 10:50:35] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 11:44:02] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:23:10] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:23:18] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:24:13] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:24:50] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:29:18] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:30:32] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 12:30:57] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 14:36:20] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 15:32:40] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 15:32:46] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-03 16:44:32] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 05:19:47] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 07:07:26] Текст ошибки:Function name must be a string | Файл:W:\domains\ishop.loc\app\widgets\currency\Currency.php | Строка:35
+==================================
+[2021-04-04 07:14:42] Текст ошибки:Too few arguments to function ishop\Registry::getProperty(), 0 passed in W:\domains\ishop.loc\app\controllers\AppController.php on line 21 and exactly 1 expected | Файл:W:\domains\ishop.loc\vendor\ishop\core\Registry.php | Строка:18
+==================================
+[2021-04-04 07:18:37] Текст ошибки:Call to undefined function app\controllers\debug() | Файл:W:\domains\ishop.loc\app\controllers\AppController.php | Строка:20
+==================================
+[2021-04-04 08:20:57] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:21:01] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:22:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:22:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 08:44:00] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:44:24] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:44:40] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:48:35] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:50:51] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:51:17] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 08:58:15] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 09:02:09] Текст ошибки:Call to a member function findOne() on null | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка:1041
+==================================
+[2021-04-04 10:04:44] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:05:38] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:06:41] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:07:46] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-04 10:13:59] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:14:21] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:14:27] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:14:37] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:15:34] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:15:54] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:17:06] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:17:27] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Currency/change.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-04 10:25:56] Текст ошибки:syntax error, unexpected '*' | Файл:W:\domains\ishop.loc\app\views\Main\index.php | Строка:60
+==================================
+[2021-04-04 12:15:25] Текст ошибки:Too few arguments to function ishop\Registry::setProperty(), 1 passed in W:\domains\ishop.loc\app\widgets\menu\Menu.php on line 45 and exactly 2 expected | Файл:W:\domains\ishop.loc\vendor\ishop\core\Registry.php | Строка:13
+==================================
+[2021-04-04 14:11:13] Текст ошибки:syntax error, unexpected '=', expecting ']' | Файл:W:\domains\ishop.loc\app\views\layouts\watchas.php | Строка:71
+==================================
+[2021-04-04 14:47:24] Текст ошибки:Контролер app\controllers\CategoryController не найден | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:42
+==================================
+[2021-04-05 12:34:31] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:34:52] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:37:24] Текст ошибки:Контролер app\controllers\ProductController не найден | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:42
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 12:41:08] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 13:10:21] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 13:12:07] Текст ошибки:Продукт не найден | Файл:W:\domains\ishop.loc\app\controllers\ProductController.php | Строка:16
+==================================
+[2021-04-05 13:12:25] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-05 15:14:35] Текст ошибки:syntax error, unexpected 'else' (T_ELSE), expecting end of file | Файл:W:\domains\ishop.loc\app\views\Product\view.php | Строка:209
+==================================
+[2021-04-05 15:15:04] Текст ошибки:syntax error, unexpected 'echo' (T_ECHO), expecting ':' | Файл:W:\domains\ishop.loc\app\views\Product\view.php | Строка:209
+==================================
+[2021-04-06 13:28:14] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-06 15:56:21] Текст ошибки:Too few arguments to function app\models\Product::setRecentlyViewed(), 0 passed in W:\domains\ishop.loc\app\controllers\ProductController.php on line 30 and exactly 1 expected | Файл:W:\domains\ishop.loc\app\models\Product.php | Строка:9
+==================================
+[2021-04-07 05:44:36] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-07 06:25:42] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-07 07:36:33] Текст ошибки:Expected array, string given. | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка:194
+==================================
+[2021-04-07 07:37:03] Текст ошибки:Expected array, string given. | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка:194
+==================================
+[2021-04-07 07:39:21] Текст ошибки:Expected array, string given. | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка:194
+==================================
+[2021-04-07 07:41:47] Текст ошибки:Expected array, string given. | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка:194
+==================================
+[2021-04-07 07:44:00] Текст ошибки:Expected array, string given. | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка:194
+==================================
+[2021-04-07 07:44:29] Текст ошибки:Expected array, string given. | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка:194
+==================================
+[2021-04-07 07:48:14] Текст ошибки:Expected array, string given. | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка:194
+==================================
+[2021-04-07 07:49:47] Текст ошибки:Call to undefined method app\models\Product::getARecentlyViewed() | Файл:W:\domains\ishop.loc\app\controllers\ProductController.php | Строка:31
+==================================
+[2021-04-07 07:57:24] Текст ошибки:Call to undefined method app\models\Product::getRecentlViewed() | Файл:W:\domains\ishop.loc\app\controllers\ProductController.php | Строка:31
+==================================
+[2021-04-07 07:58:29] Текст ошибки:Call to undefined method app\models\Product::getRecentlViewed() | Файл:W:\domains\ishop.loc\app\controllers\ProductController.php | Строка:31
+==================================
+[2021-04-07 09:33:56] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-07 10:59:02] Текст ошибки:syntax error, unexpected '"' | Файл:W:\domains\ishop.loc\app\models\Breadcrumbs.php | Строка:18
+==================================
+[2021-04-07 11:00:05] Текст ошибки:syntax error, unexpected '"' | Файл:W:\domains\ishop.loc\app\models\Breadcrumbs.php | Строка:18
+==================================
+[2021-04-11 05:12:57] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-11 06:34:53] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-11 07:32:13] Текст ошибки:Контролер app\controllers\CategoryController не найден | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:42
+==================================
+[2021-04-11 07:32:25] Текст ошибки:Контролер app\controllers\CategoryController не найден | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:42
+==================================
+[2021-04-11 07:32:43] Текст ошибки:Контролер app\controllers\CartController не найден | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:42
+==================================
+[2021-04-11 08:12:46] Текст ошибки:Контролер app\controllers\CategoryController не найден | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:42
+==================================
+[2021-04-11 10:35:58] Текст ошибки:SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.modification' doesn't exist | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка:202
+==================================
+[2021-04-11 10:40:11] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Cart/add.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-11 10:41:18] Текст ошибки:Не найден вид W:\domains\ishop.loc/app/views/Cart/add.php | Файл:W:\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка:42
+==================================
+[2021-04-11 10:49:49] Текст ошибки:SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.modification_color' doesn't exist | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка:202
+==================================
+[2021-04-11 10:50:17] Текст ошибки:SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.modification_color' doesn't exist | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка:202
+==================================
+[2021-04-11 10:51:18] Текст ошибки:SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.modification_color' doesn't exist | Файл:W:\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка:202
+==================================
+[2021-04-11 12:31:25] Текст ошибки:syntax error, unexpected '}' | Файл:W:\domains\ishop.loc\app\models\Cart.php | Строка:15
+==================================
+[2021-04-17 11:48:40] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 12:44:07] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 12:46:45] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 13:07:40] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 13:07:40] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 13:07:40] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 13:10:46] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 13:10:46] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 13:10:46] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
+[2021-04-17 13:32:40] Текст ошибки:Страница не найдена | Файл:W:\domains\ishop.loc\vendor\ishop\core\Router.php | Строка:45
+==================================
